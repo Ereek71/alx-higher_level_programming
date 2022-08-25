@@ -1,4 +1,4 @@
-#!/usr/bin/phyton
+#!/usr/bin/phyton3
 # 2-args.py
 
 if __name__ == "__main__":
