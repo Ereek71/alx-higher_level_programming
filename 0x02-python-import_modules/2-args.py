@@ -1,4 +1,4 @@
-#!/usr/bin/phyton3
+#!/usr/bin/python3
 # 2-args.py
 
 if __name__ == "__main__":
