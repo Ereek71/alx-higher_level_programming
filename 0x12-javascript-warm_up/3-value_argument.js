@@ -1,2 +1,13 @@
 #!/usr/bin/node
-console.log(typeof process.argv[2] === 'undefined' ? 'No argument' : process.argv[2]);
+
+let index = 0;
+
+while (process.argv[index]) {
+  if (index === 2) {
+    console.log(process.argv[index]);
+  }
+  index++;
+}
+if (index === 2) {
+  console.log('No argument');
+}
